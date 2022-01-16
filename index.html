@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html class="html">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A lojinha de Café</title>
+    <link rel="shortcut icon" href="images/coffee.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+
+    <!--HEADER SECTION-->
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="images/coffee.png" id="logo" alt="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">Bem-Vindo</a>
+            <a href="#about">Sobre</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Produtos</a>
+            <a href="#review">Reviews</a>
+            <a href="#contact">Contatos</a>
+            <a href="blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+          <input type="search" id="search-box" placeholder="search here...">
+          <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+          <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/kk felps anão.jpg" alt="compra">
+            <div class="content">
+              <h3>Cart item 01</h3> 
+              <div class="price">R$24,49</div>
+            </div>
+          </div>
+          <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/MxLX5M0.jpg" alt="compra">
+            <div class="content">
+              <h3>Cart item 02</h3> 
+              <div class="price">R$24,49</div>
+            </div>
+          </div>
+          <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/tm7gl6ktqhg71.jpg" alt="compra">
+            <div class="content">
+              <h3>Cart item 03</h3> 
+              <div class="price">R$24,49</div>
+            </div>
+            <div class="cart-item" id="cart-item-4">
+              <span class="fas fa-times" id="fas-fa-times-4"></span>
+              <img src="images/06509802522e5cf1791f7480eeda94b9.png" alt="compra">
+              <div class="content">
+                <h3>Cart item 04</h3> 
+                <div class="price">R$24,49</div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn" id="btn-1">Checkout Now</a>
+        </div>
+
+    </header>
+
+    <!--HOME SECTION-->
+
+    <section class="home" id="home">
+
+      <div class="content">
+        <h3>Café fresco de manhã</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam est natus labore tenetur saepe, non nulla repellat cupiditate eveniet facere, maxime nemo ratione nam enim atque consectetur quis fuga facilis?</p>
+        <a href="#" class="btn" id="btn-2">Compre já o seu</a>
+      </div>
+
+    </section>
+
+    <!--ABOUT SECTION-->
+
+    <section class="about" id="about">
+
+      <h1 class="heading"> <span>SOBRE</span> nós</h1>
+
+      <div class="row">
+
+        <div class="image"> 
+          <img src="images/about-img.jpeg" alt="sobre">
+        </div>
+
+        <div class="content">
+
+          <h3>O que faz nosso café especial?</h3>
+
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quibusdam maiores quo deleniti illo eveniet tempora voluptate, magnam accusamus dolorum quam voluptatibus sapiente ut ipsa possimus voluptates in odio officia.</p>
+
+          <p id="txtabt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nemo consectetur error tenetur voluptatem. A maxime consequuntur deleniti quam libero dolores dignissimos omnis, tenetur suscipit iste totam dicta animi recusandae!</p>
+
+          <a href="#" class="btn" id="btn-3">Saiba Mais</a>
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <!--MENU SECTION-->
+
+    <section class="menu" id="menu">
+
+      <h1 class="heading"> NOSSO <span>MENU</span></h1>
+
+      <div class="box-container">
+
+        <div class="box">
+          <img src="images/0d51b1ab54980ec65896a96915a95e02.jpg" id="dog" alt="cachorro">
+          <h3>Cachorro Fofo</h3>
+          <div class="price">R$350.99 <span>R$500.99</span></div>
+          <a href="#" class="btn">Adicionar ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="images/7aff06902d7c251955dce9f74d8ebc24.jpg" id="drip" alt="roy mustang dripado">
+          <h3>Mustang Drip</h3>
+          <div class="price">R$120.99 <span>R$279.99</span></div>
+          <a href="#" class="btn">Adicionar ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="images/1605973153_4xmcql4vexs51.png" id="lightning" alt="lightning mcfarron">
+          <h3>Lightning McFarron</h3>
+          <div class="price">R$700.99 <span>R$989.99</span></div>
+          <a href="#" class="btn">Adicionar ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="images/329868550017201.jpg" id="dog" alt="cachorro">
+          <h3>Lisbeth Kawai</h3>
+          <div class="price">R$2.99 <span>R$3.99</span></div>
+          <a href="#" class="btn">Adicionar ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="images/jonathan fodão.jpg" id="dog" alt="cachorro">
+          <h3>Jonathan Joestar</h3>
+          <div class="price">R$380.99 <span>R$580.99</span></div>
+          <a href="#" class="btn">Adicionar ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="images/images (1).jpg" id="dog" alt="cachorro">
+          <h3>Astolfo</h3>
+          <div class="price">R$547.99 </div>
+          <a href="#" class="btn">Adicionar ao Carrinho</a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!--PRODUCTS Section-->
+
+    <section class="products" id="products">
+
+      <h1 class="heading">NOSSOS<span> PRODUTOS</span></h1>
+
+      <div class="box-container">
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/images_4.jpeg"  alt="Astolfo Egirl">
+          </div>
+          <div class="content">
+            <h3>Astolfo Egirl</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star-o"></i>
+              </div>
+              <div class="price">R$100.99 <span>R$75.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/aggron.png" alt="Café">
+          </div>
+          <div class="content">
+            <h3>Aberração da Natureza</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fas fa-star-o"></i>
+                <i class="fas fa-star-o"></i>
+              </div>
+              <div class="price">R$2.99 <span>R$7.99</span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/31ff06d9d8de9f83fdb2a76a9238b1bb.jpg" alt="Cafe">
+          </div>
+          <div class="content">
+            <h3>Torcida Brasileira</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">R$52.99 <span>R$100.99</span></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+ 
+    <!--REVIEW SECTION-->
+    <section class="review" id="review">
+
+      <h1 class="heading"><span>REVIEWS</span> DE CLIENTES</h1>
+
+      <div class="box-container">
+
+        <div class="box">
+
+          <img src="images/quote-img.png" alt="perguntas" class="quote">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, inventore, reprehenderit quo enim nisi perferendis, esse perspiciatis minus quibusdam labore dolores ratione?</p>
+          <img src="images/Lucas.jpg" class="user" alt="Lucas">
+          <h3>Lucas Passos</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-o"></i>
+        </div>
+       </div>
+
+       <div class="box">
+
+        <img src="images/quote-img.png" alt="perguntas" class="quote">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla praesentium distinctio fugiat veritatis, commodi nam nisi repellat quidem placeat dolorem perferendis quo itaque.</p>
+        <img src="images/daniel.jpg" class="user" alt="Daniel">
+        <h3>Daniel Saraiva</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+      </div>
+     </div>
+     <div class="box">
+
+      <img src="images/quote-img.png" alt="perguntas" class="quote">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus obcaecati, maxime dolorem quidem modi cumque ipsa nam accusamus cupiditate quos iusto et.</p>
+      <img src="images/matheus.jpg" class="user" alt="Matheus">
+      <h3>Matheus Silva</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="fas fa-star-o"></i>
+    </div>
+   </div>
+      </div>
+
+    </section>
+
+    <!--CONTACT SECTION-->
+    <section class="contact" id="contact">
+
+      <h1 class="heading">NOSSO <span>CONTATO</span></h1>
+
+      <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14686.115180702393!2d-45.56639230056004!3d-23.04106730453013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccf921b3241c3d%3A0xead43c2e9287cd0!2sCemit%C3%A9rio%20Municipal!5e0!3m2!1spt-BR!2sbr!4v1641755093437!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      
+
+      <form action="">
+        <h3>Entre Em Contato</h3>
+        <div class="inputBox">
+          <span class="fas fa-user"></span>
+          <input type="text" placeholder="Nome">
+        </div>
+        <div class="inputBox">
+          <span class="fas fa-envelope"></span>
+          <input type="email" placeholder="Email">
+        </div>
+        <div class="inputBox">
+          <span class="fas fa-phone"></span>
+          <input type="number" placeholder="Numero">
+        </div>
+        <input type="submit" value="contact now" class="btn">
+      </form>
+
+    </div>
+    </section>
+
+
+    <!--BLOG SECTION-->
+    <section class="blogs" id="blogs">
+
+      <h1 class="heading"><span>NOSSOS</span> BLOGS</h1>
+
+
+      <div class="box-container">
+
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-1.jpeg" alt="">
+          </div>
+          <div class="content">
+            <a href="#" class="title">Café gostoso e refrescante</a>
+            <span> Por Leonardo / 22 março, 2021</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, architecto labore magni ad vero iure delectus ratione atque itaque, placeat dolorum quas eveniet.</p>
+            <a href="#" class="btn">Leia Mais</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-2.jpeg" alt="">
+          </div>
+          <div class="content">
+            <a href="#" class="title">Café gostoso e refrescante</a>
+            <span> Por Leonardo / 24 junho, 2021</span>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet quia, assumenda eos id voluptatum iure inventore delectus dolorem debitis fugiat omnis eligendi.</p>
+            <a href="#" class="btn">Leia Mais</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-3.jpeg" alt="">
+          </div>
+          <div class="content">
+            <a href="#" class="title">Café gostoso e refrescante</a>
+            <span> Por Leonardo / 13 janeiro, 2022</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat excepturi alias magnam, minus esse hic aperiam amet optio unde, quidem aliquam? </p>
+            <a href="#" class="btn">Leia Mais</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--FOOTER SECTION-->
+    <section class="footer" id="footer">
+      
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="#">home</a>
+        <a href="#">sobre</a>
+        <a href="#">menu</a>
+        <a href="#">produtos</a>
+        <a href="#">review</a>
+        <a href="#">contatos</a>
+        <a href="#">blogs</a>
+      </div>
+
+      <div class="credit">Criado Por <span>mr. web designer</span> / Todos os direitos reservados</div>
+
+
+    </section>
+
+    <script src="js/javascript.js">
+    
+    let navbar = document.querySelector('.navbar')
+
+    document.querySelector('#menu-btn').onclick = () =>{
+        navbar.classList.toggle('activate');
+    }
+    </script>
+  </body>
+
+</html>
