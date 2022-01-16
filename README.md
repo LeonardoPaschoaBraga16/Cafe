@@ -35,3 +35,9 @@ Em produtos, pode-se ver mais alguns produtos do catálogo do site
 ![image](https://user-images.githubusercontent.com/78983450/149681933-63f9d4df-ddd2-4738-9b4e-4fb389601959.png)
 
 Pode-se ver as review de "clientes" do site
+
+# CONTATO
+
+![image](https://user-images.githubusercontent.com/78983450/149682242-3a8e581f-2c50-4ff4-8dac-92f571a34cad.png)
+
+Aqui é area de contato, aonde se pode colocar seus dados nessas caixinhas
