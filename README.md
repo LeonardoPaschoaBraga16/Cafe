@@ -41,3 +41,15 @@ Pode-se ver as review de "clientes" do site
 ![image](https://user-images.githubusercontent.com/78983450/149682242-3a8e581f-2c50-4ff4-8dac-92f571a34cad.png)
 
 Aqui é area de contato, aonde se pode colocar seus dados nessas caixinhas
+
+# BLOGS
+
+![image](https://user-images.githubusercontent.com/78983450/149682333-735abec3-e43e-4158-8410-947e35b2c88a.png)
+
+Essa é a area para os blogs sobre café do site
+
+# FOOTER 
+
+![image](https://user-images.githubusercontent.com/78983450/149682352-47118937-eb7a-4291-ac6b-021b07e2d728.png)
+
+Footer do site, juntamente com direitos reservados para o Mr. Web Designer
