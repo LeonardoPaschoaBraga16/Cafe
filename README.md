@@ -6,5 +6,8 @@ Direitos do sites reservados ao canal Mr. Web Designer - https://www.youtube.com
 
 Refiz o site trocando algumas imagens.
 
+--HOME--
+
 ![image](https://user-images.githubusercontent.com/78983450/149680890-78e3e587-f46b-4b57-9fbd-5e850e9ed21c.png)
 
+Nessa home simples pode se usar para navegar e ter uma noção de como funciona o site
